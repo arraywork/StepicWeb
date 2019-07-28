@@ -1,0 +1,13 @@
+p {
+    color: red;
+}
+.card {
+   /* стили для всех элементов с class="card" */
+   color:#fff;
+
+   background: #333; /* фон серого цвета */
+}
+#button-go-to-top {
+   /* стили для элемента с id="button-go-to-top" */
+   text-decoration: underline; /* подчёркивание текста */
+}
