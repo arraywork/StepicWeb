@@ -1,0 +1,4 @@
+[2019-08-11 17:14:00 +0300] [505] [INFO] Starting gunicorn 19.9.0
+[2019-08-11 17:14:00 +0300] [505] [INFO] Listening at: http://0.0.0.0:8000 (505)
+[2019-08-11 17:14:00 +0300] [505] [INFO] Using worker: sync
+[2019-08-11 17:14:00 +0300] [511] [INFO] Booting worker with pid: 511
