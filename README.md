@@ -7,6 +7,7 @@
 
 C учетом директорий созданных на предыдущих задания, должна получится следующая структура директорий.
 
+
 .
 ├── ask
 │   ├── ask
@@ -15,6 +16,7 @@ C учетом директорий созданных на предыдущих
 ├── etc
 ├── public
 └── uploads
+
 4) В файле ask/qa/views.py создайте тестовый контроллер со следующим содержимым:
 
 
@@ -39,13 +41,13 @@ def test(request, *args, **kwargs):
 
 
 
-1) Вместо символических ссылок сделал так: 
+1. Вместо символических ссылок сделал так: 
     В файле--> sudo nano /etc/nginx/nginx.conf
     захешировал(можно просто удалить) -->#include /etc/nginx/conf.d/*.conf;
                                       -->#include /etc/nginx/sites-enabled/*;
     добавил      --> include /home/box/web/etc/nginx.conf;
 
-2) git clone https://github.com/your_account/stepic_web_project.git /home/box/web
-3) bash /home/box/web/init.sh
-4) Если что то пошло не так выполнить cd /home/box/web/
+2. git clone https://github.com/your_account/stepic_web_project.git /home/box/web
+3. bash /home/box/web/init.sh
+4. Если что то пошло не так выполнить cd /home/box/web/
  и запустить sudo gunicorn -c gunicorn.conf hello:app
